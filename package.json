@@ -1,0 +1,22 @@
+{
+  "name": "node-cpp",
+  "version": "1.0.0",
+  "description": "Simple C++ code exported as a JS module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahanemat/node-cpp.git"
+  },
+  "author": "Taha Nemat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahanemat/node-cpp/issues"
+  },
+  "homepage": "https://github.com/tahanemat/node-cpp#readme",
+  "dependencies": {
+    "node-addon-api": "^2.0.0"
+  }
+}
