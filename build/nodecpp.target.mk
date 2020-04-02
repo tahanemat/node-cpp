@@ -94,7 +94,8 @@ INCS_Release := \
 	-I/home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api
 
 OBJS := \
-	$(obj).target/$(TARGET)/src/main.o
+	$(obj).target/$(TARGET)/src/main.o \
+	$(obj).target/$(TARGET)/src/example.o
 
 # Add to the list of files we specially track dependencies for.
 all_deps += $(OBJS)

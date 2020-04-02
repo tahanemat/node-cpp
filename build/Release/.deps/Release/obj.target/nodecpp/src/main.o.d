@@ -6,7 +6,8 @@ Release/obj.target/nodecpp/src/main.o: ../src/main.cpp \
  /home/taha/.cache/node-gyp/12.16.1/include/node/js_native_api_types.h \
  /home/taha/.cache/node-gyp/12.16.1/include/node/node_api_types.h \
  /home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api/napi-inl.h \
- /home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api/napi-inl.deprecated.h
+ /home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api/napi-inl.deprecated.h \
+ ../src/headers/example.h
 ../src/main.cpp:
 /home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api/napi.h:
 /home/taha/.cache/node-gyp/12.16.1/include/node/node_api.h:
@@ -15,3 +16,4 @@ Release/obj.target/nodecpp/src/main.o: ../src/main.cpp \
 /home/taha/.cache/node-gyp/12.16.1/include/node/node_api_types.h:
 /home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api/napi-inl.h:
 /home/taha/taha-dev/git-projects/node-cpp/node_modules/node-addon-api/napi-inl.deprecated.h:
+../src/headers/example.h:

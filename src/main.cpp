@@ -1,7 +1,15 @@
 #include <napi.h>
+#include "headers/example.h"
 
-Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
-  return exports;
+Napi::Number PrintSecretWrapped(const Napi::CallbackInfo& info){
+    Napi::Env env = info.Env();
+    Napi::Number returnVal = Napi::Number::New(env, secret::PrintSecret());
+    return returnVal;
 }
 
-NODE_API_MODULE(nodecpp, InitAll)
+Napi::Object Init(Napi::Env env, Napi::Object exports) {
+    exports.Set("printMySecret",Napi::Function::New(env, PrintSecretWrapped));
+    return exports;
+}
+
+NODE_API_MODULE(nodecpp, Init)
