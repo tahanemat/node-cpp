@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Simple C++ code exported as a JS module",
   "main": "index.js",
+  "gypfile": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
   },
   "repository": {
     "type": "git",
