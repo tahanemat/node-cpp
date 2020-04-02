@@ -2,8 +2,8 @@
 #include <iostream>
 
 namespace secret{
-    int PrintSecret(){
+    void PrintSecret(){
     std::cout << "The cake is a lie!" << std::endl;
-    return 0;
+    return;
     }
 }

@@ -1,10 +1,8 @@
 #include <napi.h>
 #include "headers/example.h"
 
-Napi::Number PrintSecretWrapped(const Napi::CallbackInfo& info){
-    Napi::Env env = info.Env();
-    Napi::Number returnVal = Napi::Number::New(env, secret::PrintSecret());
-    return returnVal;
+void PrintSecretWrapped(const Napi::CallbackInfo& info){
+    secret::PrintSecret();
 }
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {

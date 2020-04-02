@@ -1,4 +1,4 @@
 const nodecpp = require('./build/Release/nodecpp.node');
 console.log('-------------->');
-console.log(nodecpp.printMySecret());
+nodecpp.printMySecret();
 module.exports = nodecpp;
